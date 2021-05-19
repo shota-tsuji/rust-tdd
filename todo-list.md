@@ -1,7 +1,7 @@
 - []$5 + 10CHF = $10(レートが2:1の場合)
-- []$5 * 2 = $10
-- []amountをprivateにする
-- []Dollarの副作用を解消する
+- [x]$5 * 2 = $10
+- [x]amountをprivateにする
+- [x]Dollarの副作用を解消する
 - []Moneyの丸め処理をする
 - [x]equal()
 - []hashCode()
