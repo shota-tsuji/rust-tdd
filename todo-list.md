@@ -5,3 +5,4 @@
 - Moneyの丸め処理をする
 - equal()
 - hashCode()
+- 5CHF * 2 = 10CHF
