@@ -1,6 +1,5 @@
 #[derive(Debug)]
 pub struct Dollar {
-    amount: u32
 }
 
 #[derive(Debug)]
@@ -23,15 +22,11 @@ impl Money {
 
 trait MoneyTrait {
     fn new(amount: u32) -> Money;
-    fn times(&self, multiplier: u32) -> Money;
 }
 
 impl MoneyTrait for Dollar {
     fn new(amount: u32) -> Money {
         Money { amount: amount }
-    }
-    fn times(&self, multiplier: u32) -> Money {
-        Money { amount: self.amount * multiplier }
     }
 }
 
