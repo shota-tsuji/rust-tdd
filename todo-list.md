@@ -3,3 +3,5 @@
 - amountをprivateにする
 - Dollarの副作用を解消する
 - Moneyの丸め処理をする
+- equal()
+- hashCode()
