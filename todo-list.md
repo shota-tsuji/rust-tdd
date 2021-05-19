@@ -1,8 +1,11 @@
-- $5 + 10CHF = $10(レートが2:1の場合)
-- $5 * 2 = $10
-- amountをprivateにする
-- Dollarの副作用を解消する
-- Moneyの丸め処理をする
-- equal()
-- hashCode()
-- 5CHF * 2 = 10CHF
+- []$5 + 10CHF = $10(レートが2:1の場合)
+- []$5 * 2 = $10
+- []amountをprivateにする
+- []Dollarの副作用を解消する
+- []Moneyの丸め処理をする
+- [x]equal()
+- []hashCode()
+- [x]5CHF * 2 = 10CHF
+- []DollarとFrancの重複
+- []equalsの一般化
+- []timesの一般化
