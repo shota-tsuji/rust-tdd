@@ -1,9 +1,3 @@
-pub struct Dollar {
-}
-
-pub struct Franc {
-}
-
 struct Money {
     amount: u32,
     currency: &'static str
@@ -51,18 +45,9 @@ mod tests {
     }
 
     #[test]
-    fn test_franc_multiplication() {
-        let five = Money::franc(5);
-        assert!(Money::franc(10).equals(five.times(2)));
-        assert!(Money::franc(15).equals(five.times(3)));
-    }
-
-    #[test]
     fn test_equality() {
         assert!(Money::dollar(5).equals(Money::dollar(5)));
         assert!(!Money::dollar(5).equals(Money::dollar(6)));
-        assert!(Money::franc(5).equals(Money::franc(5)));
-        assert!(!Money::franc(5).equals(Money::franc(6)));
         assert!(!Money::franc(5).equals(Money::dollar(5)));
     }
 
