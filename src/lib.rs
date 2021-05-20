@@ -63,7 +63,7 @@ mod tests {
         assert!(!Money::dollar(5).equals(Money::dollar(6)));
         assert!(Money::franc(5).equals(Money::franc(5)));
         assert!(!Money::franc(5).equals(Money::franc(6)));
-        //TODO assert!(!Franc::new(5).equals(Dollar::new(5)));
+        //TODO assert!(!Money::franc(5).equals(Money::dollar(5)));
     }
 
     #[test]
